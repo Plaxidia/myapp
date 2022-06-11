@@ -5,4 +5,10 @@ import React from "react";
 }
 */
 
+//export const Greet =()=>  return<h1> Hello ,its Plaxidia</h1>
+const Greet =()=>
+{
+    return<h1> Hello ,its Plaxidia</h1>
+   
+}
 export default Greet;
