@@ -6,9 +6,16 @@ import React from "react";
 */
 
 //export const Greet =()=>  return<h1> Hello ,its Plaxidia</h1>
-const Greet =()=>
+const Greet =(props)=>
 {
-    return<h1> Hello ,its Plaxidia</h1>
-   
+    
+    console.log(props);
+    return(
+        <div>
+    <h1> Hello {props.name} a.k.a {props.surname}</h1>
+    {props.children}
+    
+    </div>
+    )
 }
 export default Greet;
