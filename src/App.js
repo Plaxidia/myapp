@@ -7,16 +7,22 @@ import Welcome from './Components/welcome';
 import Hello from './Components/hello';
 import Message from './Components/Message';
 import Counter from './Components/Counter';
+import ClickFunction from './Components/ClickFunction';
+import ClassClick from './Components/ClassClick';
+
 function App() {
   
   return (
     <div className="App">
-      <Counter>
-        
-      </Counter>
+      <ClickFunction/>
+      <ClassClick/> 
       {/*
-      <Message/>
+      <Counter>
+
+      </Counter>
       
+      <Message/>
+  
      <Greet name = "Hove" surname = "xove">
       <p1> this is children props</p1>
       </Greet>
@@ -32,6 +38,7 @@ function App() {
      <Hello/>
 
   */}
+  
     </div>
   );
   
