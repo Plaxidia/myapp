@@ -5,10 +5,18 @@ import Greet from './Components/Greet'
 //import {Greet }from './Components/Greet'
 import Welcome from './Components/welcome';
 import Hello from './Components/hello';
+import Message from './Components/Message';
+import Counter from './Components/Counter';
 function App() {
   
   return (
     <div className="App">
+      <Counter>
+        
+      </Counter>
+      {/*
+      <Message/>
+      
      <Greet name = "Hove" surname = "xove">
       <p1> this is children props</p1>
       </Greet>
@@ -21,6 +29,9 @@ function App() {
      </Greet>
      <Welcome name =" ednah" surname =" maama"></Welcome>
      <Welcome name =" Neldah" surname =" Mbhena"></Welcome>
+     <Hello/>
+
+  */}
     </div>
   );
   
