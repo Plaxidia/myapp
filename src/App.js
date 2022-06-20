@@ -9,14 +9,18 @@ import Message from './Components/Message';
 import Counter from './Components/Counter';
 import ClickFunction from './Components/ClickFunction';
 import ClassClick from './Components/ClassClick';
+import EventBind from './Components/EventBind';
 
 function App() {
   
   return (
     <div className="App">
+      
+      <EventBind/>
+      {/*
+
       <ClickFunction/>
       <ClassClick/> 
-      {/*
       <Counter>
 
       </Counter>
