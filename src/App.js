@@ -13,16 +13,17 @@ import EventBind from './Components/EventBind';
 import ParentComponent from './Components/ParentComponent';
 import Childcomponent from './Components/Childcomponent';
 import Usergreetings from './Components/Usergreetings';
-
+import Namelist from './Components/Namelist';
 function App() {
   
   return (
     <div className="App">
+      <Namelist/>
 
-      
+       {/*
       <Usergreetings/>
-      
-      {/*
+
+     
       <ParentComponent/>
       <EventBind/>
       
